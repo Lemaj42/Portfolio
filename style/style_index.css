@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+/*** Carousel Start ***/
+.carousel-header #carouselId .carousel-control-prev,
+.carousel-header #carouselId .carousel-control-next {
+    background: transparent;
+}
+
+.carousel-header #carouselId .carousel-inner .carousel-item {
+    position: relative;
+    min-height: 100vh
+}
+
+.carousel-header #carouselId .carousel-inner .carousel-item img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-header #carouselId .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4));
+    background-size: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0;
+}
+
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon {
+    background: transparent !important;
+}
+
+.carousel-header #carouselId.carousel {
+    position: relative;
+}
+
+.carousel-header #carouselId.carousel .carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent !important;
+}
+
+.carousel-header #carouselId.carousel .carousel-indicators li,
+.carousel-header #carouselId.carousel .carousel-indicators li,
+.carousel-header #carouselId.carousel .carousel-indicators li {
+    margin-right: 30px !important;
+}
+
+.carousel-header #carouselId.carousel .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px !important;
+    border: 5px solid transparent;
+    transition: 0.5s;
+
+}
+
+.carousel-header #carouselId.carousel .carousel-indicators li.active {
+    border: 5px solid var(--bs-primary) !important;
+    border-radius: 10px;
+}
+
+.container-fluid1 img {
+    object-fit: contain;
+    object-position: center;
+    left: 0;
+}
+
+/*** Carousel End ***/
+.title {
+    font-size: 3rem;
+    color: #4fcfe0;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: bold !important;
+}
+
+.mt-3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4fcfe0;
+    margin-bottom: 20px;
+    font-weight: bold !important;
+}
+
+.col-md-4 {
+    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#infos-section {
+    position: relative;
+}
+
+#borderEX {
+
+    border-left: 15px solid white;
+}
+
+@media screen and (max-width: 770px) {
+    #borderEX {
+        border-left: 0;
+    }
+}
+
+#borderIN {
+
+    border-right: 15px solid rgb(3, 3, 3);
+}
+
+@media screen and (max-width: 770px) {
+    #borderIN {
+        border-right: 0;
+    }
+}
+
+
+/* teste pour navbar */
+.nav-link {
+    transition: color 0.6s;
+    /* Ajoute une transition de couleur sur 0.6s */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: gray !important;
+    /* Change la couleur au survol et pour les liens actifs */
+}
+
+h2 {
+    color: #4fcfe0 !important;
+}
+
+h3 {
+    color: #4fcfe0 !important;
+}
+
+.tittreP {
+    color: #4fcfe0 !important;
+}
