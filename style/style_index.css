@@ -12,7 +12,7 @@ body {
 
 .carousel-header #carouselId .carousel-inner .carousel-item {
     position: relative;
-    min-height: 100vh
+    min-height: 50vh
 }
 
 .carousel-header #carouselId .carousel-inner .carousel-item img {

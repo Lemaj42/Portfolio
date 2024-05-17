@@ -130,13 +130,13 @@
     </section>
 
 
-    <section id="Projets-section" style="background-image: url('./image/wallpaper/image5.jpg');height: 500;"
+    <section id="Projets-section" style="background-image: url('./image/wallpaper/image5.jpg');height: 100;"
         class="text-black text text-center">
         <div class="row justify-content-center align-items-center">
             <h2 class="mt-3 display-4"><strong>Mes Projets</strong></h2>
         </div>
         <!-- Carousel Start -->
-        <div class="container-fluid1 carousel-header vh-100 px-0">
+        <div class="container-fluid1 carousel-header px-0">
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
@@ -598,40 +598,45 @@
                         <Table></Table>Technologies maîtrisés
                     </strong></h2>
             </div>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-5 col-12 text-white"><strong>
-                        <li class="list-group-item" style="font-size: larger;">Symfony</li>
-                        <li class="list-group-item" style="font-size: larger;">Figma</li>
-                        <li class="list-group-item" style="font-size: larger;">Trello</li>
-                        <li class="list-group-item" style="font-size: larger;">Canva</li>
-                        <li class="list-group-item" style="font-size: larger;">Bootstrap</li>
-                        <li class="list-group-item" style="font-size: larger;">WordPress</li>
-                    </strong></div>
-
-                <div class="col-md-7 col-12">
-                    <div id="carouselExample " class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./image/logo/symfony_logo.png" class="img-fluid" alt="Image logo Symfony">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./image/logo/figma_logo.png" class="img-fluid" alt="Image logo WordPress">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./image/logo/trello_logo.png" class="img-fluid" alt="Image logo WordPress">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./image/logo/canva_logo.png" class="img-fluid" alt="Image logo Canva">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./image/logo/bootstrap_logo.png" class="img-fluid" alt="Image logo Bootstrap">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./image/logo/wordpress_logo.png" class="img-fluid" alt="Image logo WordPress">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="d-flex justify-content-center align-items-center container">
+                <ul class="row text-white d-flex justify-content-evenly w-100">
+                    <li class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-2 col-md-4 col-sm-6 list-group-item"
+                        style="font-size: larger;">
+                        <img src="./image/logo/symfony_logo.png" width="150px" class="my-2 img-fluid"
+                            alt="Image logo Symfony">
+                        <p>Symfony</p>
+                    </li>
+                    <li class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-2 col-md-4 col-sm-6 list-group-item"
+                        style="font-size: larger;">
+                        <img src="./image/logo/figma_logo.png" width="150px" class="my-2 img-fluid"
+                            alt="Image logo WordPress">
+                        <p>Figma</p>
+                    </li>
+                    <li class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-2 col-md-4 col-sm-6 list-group-item"
+                        style="font-size: larger;">
+                        <img src="./image/logo/trello_logo.png" width="150px" class="my-2 img-fluid"
+                            alt="Image logo WordPress">
+                        <p>Trello</p>
+                    </li>
+                    <li class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-2 col-md-4 col-sm-6 list-group-item"
+                        style="font-size: larger;">
+                        <img src="./image/logo/canva_logo.png" width="150px" class="my-2 img-fluid"
+                            alt="Image logo Canva">
+                        <p>Canva</p>
+                    </li>
+                    <li class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-2 col-md-4 col-sm-6 list-group-item"
+                        style="font-size: larger;">
+                        <img src="./image/logo/bootstrap_logo.png" width="150px" class="my-2 img-fluid"
+                            alt="Image logo Bootstrap">
+                        <p>Bootstrap</p>
+                    </li>
+                    <li class="d-flex flex-column align-items-center justify-content-center col-12 col-lg-2 col-md-4 col-sm-6 list-group-item"
+                        style="font-size: larger;">
+                        <img src="./image/logo/wordpress_logo.png" width="150px" class="my-2 img-fluid"
+                            alt="Image logo WordPress">
+                        <p>WordPress</p>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
