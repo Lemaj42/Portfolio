@@ -162,3 +162,11 @@ h3 {
 .tittreP {
     color: #4fcfe0 !important;
 }
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
