@@ -76,7 +76,7 @@
         style="background-image: url('./image/wallpaper/image7.jpg'); height: 200 ; background-size: cover; background-position: center;">
         <div class="container-fluid h-100">
             <div class="row justify-content-center align-items-center text-center">
-                <h2 class="mt-3 display-4"><strong>A propos de moi Hello</strong></h2>
+                <h2 class="mt-3 display-4"><strong>A propos de moi</strong></h2>
             </div>
             <div class="row h-70 justify-content-center align-items-center">
                 <div class="col-md-4" id="borderIN">
