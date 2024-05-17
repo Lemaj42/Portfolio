@@ -77,7 +77,7 @@ body {
 }
 
 .carousel-header #carouselId.carousel .carousel-indicators li.active {
-    border: 5px solid var(--bs-primary) !important;
+    border: 5px solid #4fcfe0 !important;
     border-radius: 10px;
 }
 

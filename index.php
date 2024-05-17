@@ -8,6 +8,15 @@
     <link href="./style/style_index.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        ol {
+            list-style: none;
+        }
+    </style>
 </head>
 
 <body style="overflow-x: hidden;">
@@ -144,8 +153,6 @@
                     <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
                     <li data-bs-target="#carouselId" data-bs-slide-to="3"></li>
                     <li data-bs-target="#carouselId" data-bs-slide-to="4"></li>
-
-
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active w-100">
