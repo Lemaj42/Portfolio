@@ -478,11 +478,10 @@
                                 <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">
                                     Développement d'un comparateur de vols.</h4>
                                 <h1 class="tittreP display-1 text-capitalize mb-4">LOW COST TRAVEL</h1>
-                                <p class="mb-5 fs-5">j'ai créé un mini-chat avec une fenêtre principale
-                                    affichant les
-                                    messages de tous les utilisateurs, une barre horizontale pour envoyer de
-                                    nouveaux
-                                    messages, et une fenêtre latérale affichant la liste des utilisateurs.
+                                <p class="mb-5 fs-5">En binôme, nous avons créé une plateforme d'agence de voyage. Nous
+                                    avons également ajouté la possibilité pour les entreprises de proposer leurs
+                                    séjours. Pour que ces séjours soient disponibles, nous avons mis en place un tableau
+                                    de bord permettant de valider et de mettre en ligne les séjours en attente.
                                 </p>
                                 </p>
                                 <div class="d-flex align-items-center justify-content-center pb-3">
