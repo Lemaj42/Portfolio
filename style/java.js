@@ -8,3 +8,21 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+
+emailjs.init({
+    publicKey: '5OMXk881klwBP7SpX',
+});
+
+window.onload = function () {
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+        // these IDs from the previous steps
+        emailjs.sendForm('service_62ai9w8', 'template_f0yjzdf', this)
+            .then(() => {
+                console.log('SUCCESS!');
+            }, (error) => {
+                console.log('FAILED...', error);
+            });
+    });
+}
